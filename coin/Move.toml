@@ -1,0 +1,11 @@
+[package]
+name = "adec"
+version = "0.0.1"
+published-at = "0x2c34d660fcef93e433524d4b625cd8fa22ef1ae0441740fd5446b364070ecba8"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+adec =  "0x0"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"
